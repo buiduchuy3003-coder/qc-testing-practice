@@ -3,7 +3,7 @@ Manual testing practice – SauceDemo
 
 Bug ID: Bug_Navigation_01
 
-Title: Đăng nhập không ổn định, có lúc không chuyển sang trang chủ
+Title: Đăng nhập thành công nhưng không chuyển sang trang chủ
 
 Environment: 
 - Windows 11
