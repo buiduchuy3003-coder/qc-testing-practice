@@ -22,9 +22,6 @@ Steps to reproduce:
 6. Tắt trang mở lại
 7. Thực hiện lại bước 1 - 4
 
-Frequency:
-- Xảy ra khoảng 2–3 lần trên 10 lần đăng nhập
-
 Expected result:
 - Đăng nhập thành công
 - Chuyển sang trang chủ
