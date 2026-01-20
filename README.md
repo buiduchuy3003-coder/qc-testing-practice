@@ -118,7 +118,26 @@ Status: Pass
 
 Test case ID: TC_Checkout_01
 
-Title: 
+Title: Nhập đúng thông tin checkout
+
+Pre condition:
+-User đã có tài khoản
+
+Test steps:
+1. Mở trang Swag Labs
+2. Đăng nhập thành công
+3. Chọn 1 món hàng tùy ý
+4. Bấm cart
+5. Chọn checkout
+6. Nhập đúng First name
+7. Nhập đúng Last name
+8. Nhập đúng Zip code
+9. Bấm continue
+
+Expected result:
+-Chuyển trang thành công
+
+Status: Pass
 
 
 
