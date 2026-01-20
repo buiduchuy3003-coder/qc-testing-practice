@@ -110,6 +110,10 @@ Expected result:
 - Password is required
 - Đăng nhập không thành công
 
+Test case ID: TC_Checkout_01
+
+Title: 
+
 Actual result:
 - Password is required
 - Đăng nhập không thành công
