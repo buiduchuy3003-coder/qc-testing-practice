@@ -121,7 +121,7 @@ Test case ID: TC_Checkout_01
 Title: Nhập đúng thông tin checkout
 
 Pre condition:
--User đã có tài khoản
+- User đã có tài khoản
 
 Test steps:
 1. Mở trang Swag Labs
@@ -135,7 +135,7 @@ Test steps:
 9. Bấm continue
 
 Expected result:
--Chuyển trang thành công
+- Chuyển trang thành công
 
 Status: Pass
 
