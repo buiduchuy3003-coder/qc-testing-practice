@@ -122,10 +122,12 @@ Title: Nhập đúng thông tin checkout
 
 Pre condition:
 - User đã có tài khoản
+- User đã đăng nhập thành công
+- Có ít nhất 1 sản phẩm trong giỏ hàng
 
 Test steps:
 1. Mở trang Swag Labs
-2. Đăng nhập thành công
+2. Đăng nhập tài khoản hợp lệ
 3. Chọn 1 món hàng tùy ý
 4. Bấm cart
 5. Chọn checkout
@@ -135,7 +137,8 @@ Test steps:
 9. Bấm continue
 
 Expected result:
-- Chuyển trang thành công
+- Chuyển sang trang overview
+- Hiển thị thông tin đơn hàng đúng
 
 Status: Pass
 
