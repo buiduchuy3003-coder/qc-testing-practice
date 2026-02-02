@@ -47,7 +47,7 @@ Pre condition:
 - User đã đăng nhập thành công
 - Có ít nhất 1 sản phẩm trong giỏ hàng
 
-Step reproduce:
+Steps to reproduce:
 1. Mở trang Swag Labs
 2. Đăng nhập bằng tài khoản hợp lệ
 3. Thêm 1 sản phẩm bất kỳ vào giỏ hàng
@@ -67,6 +67,41 @@ Actual result:
 - Không hiển thị thông báo lỗi
 
 Severity: Major
+
+Priority: High
+
+Bug ID: Bug_Checkout_02
+
+Title: Không chọn sản phẩm vẫn checkout được
+
+Environment:
+- Windows 11
+- Google Chrome
+- URL: (https://www.saucedemo.com/)
+
+Pre condition:
+- User đã đăng nhập thành công
+- Giỏ hàng trống
+
+Steps to reproduce:
+1. Mở trang Swag Labs
+2. Đăng nhập tài khoản hợp lệ
+3. Bấm vào biểu tượng giỏ hàng
+4. Bấm checkout
+5. Nhập đúng First name
+6. Nhập đúng Last name
+7. Nhập đúng Zip code
+8. Bấm continue
+9. Bấm finish
+
+Expected result:
+- Không chuyển sang trang checkout: Complete
+- Màn hình hiển thị thông báo: Product is required
+
+Actual result:
+- Chuyển sang trang checkout: Complete
+
+Severity: Critical
 
 Priority: High
 
